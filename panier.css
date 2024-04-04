@@ -1,0 +1,134 @@
+
+
+body{
+    height: 150vh;
+    padding: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+   
+}
+.contenant{
+    border: 0px solid ;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: white;
+    width: 60%;
+    padding: 10px;
+  
+    
+}
+.block{
+    margin-top: 20px;
+
+}
+.contenant .corason{
+    display: flex;
+    justify-content: flex-end;
+}
+
+  .contenant .article{  
+ display: flex;
+justify-content: space-between;   
+}
+.contenant .article ,.article-contenue{
+    display: flex;
+
+}
+.contenant .article-img img{
+    border: 0px solid;
+    border-radius: 25px;
+}
+.contenant .barre-delet{
+    display: flex;
+    justify-content: space-between;
+}
+.contenant .article-img{
+    margin-left: 20px;
+}
+
+.contenant .delet1{
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+.contenant .butons{
+    display: flex;
+}
+.contenant .butons .moin1:hover
+,.contenant .butons .plus1:hover {
+ background-color: #a55610;
+} 
+.contenant .butons .moin1
+ ,.contenant .butons .plus1{
+    width: 40px;
+    height: 35px;
+    background-color: #F28322;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.contenant .butons #quantiter {
+        text-align: center;
+        width: 35px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.contenant .delet1{
+    color: #F28322;
+}
+
+.contenant .delet1:hover{
+    border: 0px solid;
+    padding: 2px;
+    border-radius: 5px;
+   color: white;
+   background-color: #F28322;
+   transition: 0.8s;
+    
+    
+}
+.contenant .article-desc{
+    margin-left: 15px;
+}
+ .RESUMER-PANIER{
+    border: 0px solid;
+    border-radius: 5px;
+    width: 20%;
+    height: 280px;
+    margin-left: 50px;
+    background-color: white;
+    padding: 5px;
+    
+}
+.block{
+    display: flex;
+}
+.RESUMER-PANIER .resumer,.RESUMER-PANIER .total,.RESUMER-PANIER .para{
+    margin-left: 5px;
+}
+.RESUMER-PANIER .commande {
+    text-align: center;
+
+   
+}
+.RESUMER-PANIER .commande  button{
+    width: 250px;
+    height: 40px;
+    background-color:  #F28322;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 5px 5px;
+}
+.contenant .logo{
+    color: #F28322;
+}
+.RESUMER-PANIER .logo{
+    
+    color: #F28322;
+}
+.RESUMER-PANIER{
+    margin-top: 50px;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="panier.css">
+    <link rel="shortcut icon" href="etoile.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUMBO EXPRESSE</title>
+</head>
+<body>
+    <DIV class="block">
+   <DIV class="contenant">
+    <DIV class="bloose">
+        <h2>panier</h2>
+        <hr> 
+     <div id="article1">
+            <div class="corason"><img src="coeur.png" alt="" width="30px" ></div>
+        <div class="article">
+            <div class="article-contenue">
+                    <div  class="article-img">
+                        <img src="bluse.jpg" alt="article-bluse" width="100px" >
+                    </div>
+                    <div class="article-desc"> <h3>Gilet de pêche sport randonnée </h3>
+                        <i>JUMBO </i><span class="logo"><img src="telegramme.png" alt="" width="18px">EXPRESSE</span>
+                    </div>
+            </div>
+                <div class="prix1">
+                    <h2>prix</h2><h2>9,000 FCFA</h2>
+                </div>
+         </div>
+            <div class="barre-delet">
+                    <div class="delet1" onclick="supprimearticle1()"> <img src="disposition.png" alt="" width="20px" >SUPPRIMER</div>
+                <div class="butons">
+                    <button  class="moin1" onclick="diminue()"><img src="moin.png" alt=""></button>
+                    <div id="quantiter" ></div>
+                    <button class="plus1" onclick="Augmente()"><img src="plus.png" alt=""></button>
+                </div>
+            </div> 
+   </div> 
+</DIV>
+         </DIV>
+ 
+    <DIV class="RESUMER-PANIER">
+        <div class=" resumer"><P>RESUMER DU PANIER</P></div>
+        <hr>
+        <div class="total">
+               <P>sous total:</P>
+               <div id="prixtotal"></div>
+        <hr>
+        <div class="para">les article jumbo expresse son eligible <br>a la livraison gratuite <br>
+        <i>JUMBO</i><span class="logo"><img src="telegramme.png" alt="" width="18px"> EXPRESSE</span></div>
+        <hr>
+        <div class="comm-contains">
+        <div class="commande"> <button>COMMANDER</button></div>
+        </div>
+    </DIV>
+</DIV>
+</DIV>
+
+    <script src="panier.js">
+
+
+    </script>
+</body>
+</html>
